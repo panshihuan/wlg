@@ -1,0 +1,83 @@
+{
+  "data": {
+    "active": false,
+    "convert": {},
+    "delete": false,
+    "gid": "5A4B67ADA57D42D3E055000000000001",
+    "routeEquipmentQueryList": [
+      {
+        "active": true,
+        "convert": {},
+        "createTime": "2017-09-29 10:19:25.620",
+        "delete": false,
+        "demandModeGid": "5753D1FC5AE82395E055000000000001",
+        "demandModeName": "5753D1FC5AE82395E055000000000001",
+        "effectiveWorkingTime": 12,
+        "equipmentCapacity": 12,
+        "equipmentNumber": 12,
+        "gid": "5A4BA2986FB242CDE055000000000001",
+        "mdDefEquipmentGid": "5A4BA2986FB242CDE055000000000001",
+        "mdDefOperationCode": "gyh01",
+        "mdDefOperationGid": "58FCEA9AEAFD1B4EE055000000000001",
+        "mdDefOperationName": "gyh01",
+        "mdEquipmentCode": "13abvc",
+        "mdEquipmentGid": "574EF0EF50D719C3E055000000000001",
+        "mdEquipmentName": "dafa",
+        "mdEquipmentType": "98",
+        "mdRouteEquipmentGid": "5A4BA2986FB242CDE055000000000001",
+        "processBatch": 12,
+        "routeLineGid": "5A4B67ADA57C42D3E055000000000001"
+      }
+    ],
+    "routeOperationQueryList": [
+      {
+        "active": true,
+        "businessModeGid": "5672E5535B7D5A23E055000000000001",
+        "businessModeName": "过程报工",
+        "convert": {},
+        "createTime": "2017-09-29 10:19:25.568",
+        "delete": false,
+        "gid": "58FCEA9AEAFD1B4EE055000000000001",
+        "mdDefOperationCode": "gyh01",
+        "mdDefOperationGid": "58FCEA9AEAFD1B4EE055000000000001",
+        "mdDefOperationName": "gyh01",
+        "mdDefOperationTypeGid": "566141C8977E3349E055000000000001",
+        "mdDefOperationTypeName": "刨",
+        "mdRouteOperationGid": "5A4BA2986FB042CDE055000000000001",
+        "processTest": 1,
+        "processingModeGid": "566141C897803349E055000000000001",
+        "processingModeName": "不限",
+        "rhythm": 12,
+        "rhythmTypeGid": "566141C897833349E055000000000001",
+        "rhythmTypeName": "秒",
+        "routeLineGid": "5A4B67ADA57C42D3E055000000000001",
+        "sortNum": 1,
+        "worksheetGenarationModeGid": "566141C897813349E055000000000001",
+        "worksheetGenarationModeName": "工单发布产生"
+      },
+      {
+        "active": true,
+        "convert": {},
+        "createTime": "2017-09-29 10:19:25.583",
+        "delete": false,
+        "mdRouteOperationGid": "5A4BA2986FB142CDE055000000000001",
+        "routeLineGid": "5A4B67ADA57C42D3E055000000000001",
+        "sortNum": 2
+      }
+    ],
+    "technicData": "{\"children\":[{\"className\":\"Text\",\"attrs\":{\"shapeType\":\"routeLine\",\"x\":10,\"name\":\"shape\",\"y\":15,\"shapeData\":{\"spec\":\"\",\"productVersion\":\"\",\"model\":\"\",\"materialInfoCode\":\"\",\"materialInfoName\":\"\"},\"fontSize\":18,\"id\":\"6987139c2b7b45bda62d592fcb840305\",\"text\":\"工艺路线\",\"fill\":\"#666\"}},{\"children\":[{\"className\":\"Ellipse\",\"attrs\":{\"shapeType\":\"process\",\"originalY\":50,\"radiusY\":20,\"name\":\"shape\",\"radiusX\":40,\"originalX\":50,\"shapeData\":{\"mdDefOperationTypeGid\":\"566141C8977E3349E055000000000001\",\"rhythmTypeGid\":\"566141C897833349E055000000000001\",\"mdFactoryWorkUnitName\":\"\",\"code\":\"gyh01\",\"gid\":\"5A4BA2986FB042CDE055000000000001\",\"mdFactoryWorkCenterName\":\"\",\"rhythm\":12,\"worksheetGenarationModeGid\":\"566141C897813349E055000000000001\",\"businessModeGid\":\"5672E5535B7D5A23E055000000000001\",\"processingModeGid\":\"566141C897803349E055000000000001\",\"processTest\":1,\"mdDefOperationGid\":\"58FCEA9AEAFD1B4EE055000000000001\",\"name\":\"gyh01\",\"mdFactoryStationName\":\"\",\"mdDefOperationName\":\"\",\"mdFactoryLineName\":\"\",\"mdDefOperationCode\":\"\"},\"id\":\"11f03a90938b472386ad1cd92625b83b\",\"text\":\"gyh01\",\"fill\":\"lightblue\",\"stroke\":\"lightblue\"}},{\"className\":\"Circle\",\"attrs\":{\"strokeWidth\":1,\"endLine\":[],\"startLine\":[],\"name\":\"anchor\",\"y\":-20,\"id\":\"5e331572f2604d268c475f1c6041f6c2\",\"fill\":\"white\",\"radius\":6,\"type\":\"left\",\"stroke\":\"#666\",\"dragOnTop\":false}},{\"className\":\"Circle\",\"attrs\":{\"strokeWidth\":1,\"endLine\":[],\"startLine\":[],\"x\":40,\"name\":\"anchor\",\"id\":\"e33740971c5c4e958ff42de49ef9ac97\",\"fill\":\"white\",\"radius\":6,\"type\":\"top\",\"stroke\":\"#666\",\"dragOnTop\":false}},{\"className\":\"Circle\",\"attrs\":{\"strokeWidth\":1,\"endLine\":[],\"startLine\":[],\"x\":-40,\"name\":\"anchor\",\"id\":\"66a5aa72365a4718b10383cc98fb0df1\",\"fill\":\"white\",\"radius\":6,\"type\":\"right\",\"stroke\":\"#666\",\"dragOnTop\":false}},{\"className\":\"Text\",\"attrs\":{\"shapeType\":\"processText\",\"x\":-40,\"width\":80,\"name\":\"procssText\",\"y\":-5,\"id\":\"b48d4118716841018f9c6301c5ebaacf\",\"text\":\"zzz\",\"fill\":\"white\",\"align\":\"center\"}}],\"className\":\"Group\",\"attrs\":{\"groupType\":\"process\",\"draggable\":true,\"name\":\"anchorGroup\",\"x\":126,\"y\":100,\"id\":\"192f76795c7348a3823d34f9329f4db5\"}},{\"children\":[{\"className\":\"Ellipse\",\"attrs\":{\"shapeType\":\"process\",\"originalY\":50,\"radiusY\":20,\"name\":\"shape\",\"radiusX\":40,\"originalX\":50,\"shapeData\":{\"mdFactoryWorkUnitName\":\"\",\"gid\":\"5A4BA2986FB142CDE055000000000001\",\"mdFactoryWorkCenterName\":\"\",\"mdFactoryStationName\":\"\",\"mdDefOperationName\":\"\",\"mdFactoryLineName\":\"\",\"mdDefOperationCode\":\"\"},\"id\":\"4f61e9907ef14a69b780aa13b53a56f2\",\"stroke\":\"lightblue\"}},{\"className\":\"Circle\",\"attrs\":{\"strokeWidth\":1,\"endLine\":[],\"startLine\":[],\"name\":\"anchor\",\"y\":-20,\"id\":\"044ef825aa6c4c0fb8d766ef3f623f6a\",\"fill\":\"white\",\"radius\":6,\"type\":\"left\",\"stroke\":\"#666\",\"dragOnTop\":false}},{\"className\":\"Circle\",\"attrs\":{\"strokeWidth\":1,\"endLine\":[],\"startLine\":[],\"x\":40,\"name\":\"anchor\",\"id\":\"2217e4c370144a96884836ad2a318aca\",\"fill\":\"white\",\"radius\":6,\"type\":\"top\",\"stroke\":\"#666\",\"dragOnTop\":false}},{\"className\":\"Circle\",\"attrs\":{\"strokeWidth\":1,\"endLine\":[],\"startLine\":[],\"x\":-40,\"name\":\"anchor\",\"id\":\"1ce3cdc7d7ee4af28aab1fbcd9e3c767\",\"fill\":\"white\",\"radius\":6,\"type\":\"right\",\"stroke\":\"#666\",\"dragOnTop\":false}},{\"className\":\"Text\",\"attrs\":{\"shapeType\":\"processText\",\"x\":-40,\"width\":80,\"name\":\"procssText\",\"y\":-5,\"id\":\"bca39c10cf2247388cdbad0ee0ab8623\",\"text\":\"zzz\",\"fill\":\"darkblue\",\"align\":\"center\"}}],\"className\":\"Group\",\"attrs\":{\"groupType\":\"process\",\"draggable\":true,\"name\":\"anchorGroup\",\"x\":307,\"y\":88,\"id\":\"7a89c2ccccbb48c78017782a5f4fc88d\"}}],\"className\":\"Layer\",\"attrs\":{}}",
+    "technicGid": "5A4B67ADA57C42D3E055000000000001"
+  },
+  "pager": {
+    "actionType": 0,
+    "count": 0,
+    "endNo": 0,
+    "nextPageNo": 0,
+    "page": 1,
+    "pageSize": 10,
+    "pages": 0,
+    "prePageNo": 1,
+    "startNo": 0
+  },
+  "success": true
+}

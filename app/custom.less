@@ -1,0 +1,167 @@
+@icon-url: "/iconfont/iconfont"; // 把 iconfont 地址改到本地
+
+@ime-header-height: 80px;
+
+
+@blue-6: #108ee9;
+
+@ime-color-light: rgba(255, 255, 255, 0.1);
+@ime-color-dark: rgba(0, 0, 0, 0.1);
+
+
+@screen-xs              : 480px;
+@screen-sm              : 768px;
+@screen-md              : 992px;
+@screen-lg              : 1200px;
+@screen-xl              : 1600px;
+
+@base-size: 15px;
+
+h1{font-size: 22px;}
+h2{font-size: 20px;}
+h3{font-size: 18px;}
+h4{font-size: 16px;}
+h5{font-size: 14px;}
+h6{font-size: 12px;}
+img{
+  display:block;
+  &.img-responsive{
+    max-width: 100%;
+  }
+}
+#app  {
+  .logo{
+    width: 206px;
+    padding-right: 24px;
+    float: left;
+  }
+}
+.inline{
+  display: inline-block;
+}
+
+ul{
+  &.list-style{
+    line-height: 2rem;
+    li{
+      padding-left: 1rem;
+      &:before{
+        content: '';
+        width: 6px;
+        height: 6px;
+        background: @blue-6;
+        display: block;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: -1rem;
+        margin-top: .8rem;
+      }
+    }
+  }
+  &.list-inline{
+    li{
+      display: inline-block;
+    }
+  }
+}
+
+.w{
+  width: 180px;
+  &-xxs{
+    width: 50px;
+  }
+  &-xs{
+    width: 60px;
+  }
+  &-sm{
+    width: 90px;
+  }
+  &-md{
+    width: 120px;
+  }
+  &-lg{
+    width: 240px;
+  }
+  &-full{
+    width: 100%;
+  }
+}
+.text{
+  &-center{
+    text-align: center;
+  }
+}
+
+.l-h{
+  line-height: 2.5rem;
+}
+
+.m{
+  &-b{
+    margin-bottom: @base-size;
+    &-lg{
+      margin-bottom: @base-size + 5px;
+    }
+    &-md{
+      margin-bottom: @base-size - 5px;
+    }
+    &-sm{
+      margin-bottom: @base-size - 10px;
+    }
+    &-xs{
+      margin-bottom: @base-size - 14px;
+    }
+  }
+  &-t{
+    margin-top: @base-size;
+  }
+  &-l{
+    margin-left: @base-size;
+  }
+  &-r{
+    margin-right: @base-size;
+  }
+}
+
+.padder{
+  padding-left: @base-size;
+  padding-right: @base-size;
+}
+
+.pull-right{float: right}
+.pull-left{float: left}
+
+.h-full{
+  height: 100%;
+  &-lg{
+    @media (min-width: @screen-lg){
+      height: 100%;
+    }
+  }
+  &-md{
+    @media (min-width: @screen-md){
+      height: 100%;
+    }
+  }
+  &-sm{
+    @media (min-width: @screen-sm){
+      height: 100%;
+    }
+  }
+  &-xs{
+    @media (min-width: @screen-xs){
+      height: 100%;
+    }
+  }
+}
+
+
+.clear{
+  clear:both;
+  overflow:hidden;
+}
+
+.rounded{
+  border-radius: 500px;
+  overflow:hidden;
+}

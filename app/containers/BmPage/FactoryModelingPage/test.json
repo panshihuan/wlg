@@ -1,0 +1,191 @@
+{
+  "attrs": {
+    "x": 170,
+    "id": "mainLayer",
+    "opacity": 0.5
+  },
+  "className": "Layer",
+  "children": [
+    {
+      "attrs": {
+        "groupType": "workCenter",
+        "draggable": true,
+        "name": "anchorGroup",
+        "x": 208,
+        "y": -2,
+        "id": "bb763248fdd64d57b17ed8b9b5d21160"
+      },
+      "className": "Group",
+      "children": [
+        {
+          "attrs": {
+            "shapeData": {
+              "calendarName": "",
+              "code": "111",
+              "gid": "598700B1437204CDE055000000000001",
+              "smBusiGroupGid": "564AFEA88DF576E7E055000000000001",
+              "name": "111",
+              "smBusiUnitGid": "58F84716AEEE6FD7E055000000000001",
+              "factoryName": "工厂建模测试业务单元",
+              "factoryInfoGid": "598700B1437104CDE055000000000001"
+            },
+            "lineJoin": "round",
+            "dragDistance": 5,
+            "stroke": "rgb(114,184,254)",
+            "cornerRadius": 5,
+            "shapeType": "workCenter",
+            "lineCap": "round",
+            "x": -95,
+            "width": 538,
+            "name": "shape",
+            "y": 50,
+            "dash": [
+              5
+            ],
+            "height": 213
+          },
+          "className": "Rect"
+        },
+        {
+          "attrs": {
+            "groupType": "workLine",
+            "draggable": true,
+            "name": "anchorGroup",
+            "x": 117,
+            "y": 3,
+            "id": "b45fb6edfe9b46188c43cebcb576e791"
+          },
+          "className": "Group",
+          "children": [
+            {
+              "attrs": {
+                "shapeType": "workLine",
+                "x": -95,
+                "width": 373,
+                "name": "shape",
+                "y": 130,
+                "shapeData": {
+                  "workCenterGid": "598700B1437204CDE055000000000001",
+                  "calendarName": "",
+                  "code": "33",
+                  "gid": "5987039DC2B104AAE055000000000001",
+                  "smBusiGroupGid": "564AFEA88DF576E7E055000000000001",
+                  "name": "333",
+                  "smBusiUnitGid": "58F84716AEEE6FD7E055000000000001",
+                  "lineTypeName": "",
+                  "workCenterName": "111"
+                },
+                "fill": "rgb(102,204,153)",
+                "dragDistance": 5,
+                "height": 12
+              },
+              "className": "Rect"
+            },
+            {
+              "attrs": {
+                "x": -150,
+                "name": "groupText",
+                "y": 130,
+                "fontSize": 14,
+                "text": "333",
+                "fill": "#555",
+                "align": "center"
+              },
+              "className": "Text"
+            },
+            {
+              "attrs": {
+                "draggable": true,
+                "x": -95,
+                "name": "centerLeft",
+                "y": 136,
+                "fill": "#ddd",
+                "radius": 5,
+                "stroke": "#666",
+                "dragOnTop": false
+              },
+              "className": "Circle"
+            },
+            {
+              "attrs": {
+                "draggable": true,
+                "x": 278,
+                "name": "centerRight",
+                "y": 136,
+                "fill": "#ddd",
+                "radius": 5,
+                "stroke": "#666",
+                "dragOnTop": false
+              },
+              "className": "Circle"
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "x": -85,
+            "name": "groupText",
+            "y": 55,
+            "fontSize": 14,
+            "text": "111",
+            "fill": "#555",
+            "align": "center"
+          },
+          "className": "Text"
+        },
+        {
+          "attrs": {
+            "draggable": true,
+            "x": -95,
+            "name": "topLeft",
+            "y": 50,
+            "fill": "#ddd",
+            "radius": 5,
+            "stroke": "#666",
+            "dragOnTop": false
+          },
+          "className": "Circle"
+        },
+        {
+          "attrs": {
+            "draggable": true,
+            "x": 443,
+            "name": "topRight",
+            "y": 50,
+            "fill": "#ddd",
+            "radius": 5,
+            "stroke": "#666",
+            "dragOnTop": false
+          },
+          "className": "Circle"
+        },
+        {
+          "attrs": {
+            "draggable": true,
+            "x": -95,
+            "name": "bottomLeft",
+            "y": 263,
+            "fill": "#ddd",
+            "radius": 5,
+            "stroke": "#666",
+            "dragOnTop": false
+          },
+          "className": "Circle"
+        },
+        {
+          "attrs": {
+            "draggable": true,
+            "x": 443,
+            "name": "bottomRight",
+            "y": 263,
+            "fill": "#ddd",
+            "radius": 5,
+            "stroke": "#666",
+            "dragOnTop": false
+          },
+          "className": "Circle"
+        }
+      ]
+    }
+  ]
+}
