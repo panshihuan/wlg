@@ -51,7 +51,7 @@ export class NewsPage extends React.PureComponent {
                                 {/*}*/}
                             {/*}}/>*/}
                     </TabPane>
-                    <TabPane tab="公告" key={2}>
+                    <TabPane tab="公告1" key={2}>
                         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '5rem', backgroundColor: '#fff' }}>
 
                         </div>
